@@ -1,0 +1,220 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1220px;
+    margin: 0 auto;
+}
+
+
+
+header{
+    background: #272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+    padding: 21px 0;
+}
+
+
+header .container nav ul{
+    display: flex;
+    align-items: center;
+    gap: 30px;
+    list-style: none;
+}
+header .container nav ul li a{
+    color: white;
+    text-decoration: none;
+    font-family: Quantico;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+transition: 0.7s;
+
+}
+
+header .container nav ul li a:hover{
+    color: #FF9C28;
+
+}
+
+header .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+header .container .header-ung{
+    display: flex;
+    align-items: center;
+    gap: 40px;
+}
+
+
+header .container .header-ung .inp input{
+    width: 241px;
+    height: 30px;
+    border-radius: 5px;
+    background-color: #404864;
+    border: none;
+    outline: none;
+    color: white    ;
+}
+   
+header .container .header-ung .inp i{
+    color: rgb(178, 175, 171);
+    margin-left:    -30px;
+}
+
+
+
+header .container .header-ung select{
+    width: 165px;
+    height: 30px;
+    background: #00000080;
+    color: white;
+    border-radius: 5px;
+    border: none;
+
+}
+
+
+.hero {
+    background-image: url(./img/Bg.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    height: 800px;  
+}
+
+
+.box .container h2{
+    font-family: Quantico;
+font-weight: 400;
+font-size: 32px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+text-align: center;
+padding: 30px 0;
+}
+.box .container .rasm{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+}
+
+.box{
+    padding: 50px 0;
+    background-color: black;
+}
+
+.champ{
+    background: #1B1E27;
+    padding: 61px 0;
+}
+.champ .container h2{
+    font-family: Quantico;
+font-weight: 400;
+font-size: 24px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+padding-bottom: 30px;
+}
+
+.card{
+    display: flex;
+    align-items: center;
+    gap: 50px;
+    color: white;
+    
+
+}
+
+.champ .container{
+    padding-left: 250px;
+
+}
+
+
+footer{
+    background: #272C3D;
+    box-shadow: 0px 0px 10px 10px #00000080;
+    padding: 20px 0;
+
+}
+
+footer .container{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+
+}
+
+footer .container nav ul{
+    list-style: none;
+    display: flex;
+    align-items: center;
+    gap:    30px;
+}
+
+footer .container nav ul li a{
+    font-family: Quantico;
+font-weight: 400;
+font-size: 20px;
+line-height: 100%;
+letter-spacing: 0%;
+color: white;
+text-decoration: none;
+transition: 0.7s;
+}
+
+footer .container nav ul li a:hover{
+    color: #FF9C28;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
